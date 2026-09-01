@@ -27,27 +27,6 @@ Antes de comenzar, asegúrate de tener instalado:
 npm install
 ```
 
-## Uso
-
-Una vez instaladas las dependencias, puedes iniciar el proyecto con:
-
-```bash
-npm start
-```
-
-Si tu proyecto usa otro script, puedes consultarlo en el archivo package.json.
-
-## Estructura del proyecto
-
-```text
-project/
-├── src/
-│   ├── index.js
-│   └── app.js
-├── package.json
-├── README.md
-└── .gitignore
-```
 
 ## Scripts disponibles
 
