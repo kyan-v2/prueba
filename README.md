@@ -1,56 +1,163 @@
-# Proyecto JavaScript
+# 🪑 Hermanos Jota — E-commerce
 
-Breve descripción del proyecto. Aquí puedes explicar qué hace tu aplicación, para qué sirve y cuál es su objetivo principal.
+E-commerce frontend desarrollado para **Hermanos Jota**, una mueblería ficticia creada como proyecto académico.
 
-## Características
+El proyecto busca simular una experiencia de compra completa utilizando exclusivamente **HTML, CSS y JavaScript**, sin backend ni frameworks externos.
 
-- Funcionalidad principal del proyecto
-- Interfaz o lógica de negocio
-- Manejo de datos o consumo de APIs
-- Configuración sencilla y fácil de ejecutar
+### 🌐 Demo
 
-## Requisitos
+**[Ver sitio web](https://muebleria-jota-tawny.vercel.app/)**
 
-Antes de comenzar, asegúrate de tener instalado:
+---
 
-- Node.js 18 o superior
-- npm o yarn
-- Un editor de código como VS Code
+## 📖 Descripción
 
-## Instalación
+**Hermanos Jota** es un e-commerce frontend orientado a la venta de muebles y productos para el hogar.
 
-1. Clona este repositorio.
-2. Abre una terminal en la carpeta del proyecto.
-3. Ejecuta:
+El sitio permite navegar por un catálogo dinámico, consultar información detallada de cada producto y gestionar un carrito de compras utilizando `localStorage`.
 
-```bash
-npm install
+El proyecto fue desarrollado siguiendo un enfoque **Mobile First**, buscando una interfaz sencilla, accesible y adaptable a distintos tamaños de pantalla.
+
+---
+
+## ✨ Funcionalidades
+
+* 🏠 Página de inicio.
+* 🛋️ Catálogo dinámico de productos.
+* 🔎 Búsqueda de productos.
+* 📦 Visualización del detalle de cada producto.
+* 🛒 Carrito de compras simulado.
+* 🔢 Contador de productos en el carrito.
+* 💾 Persistencia del carrito mediante `localStorage`.
+* 📩 Formulario de contacto.
+* ✅ Validación de formularios.
+* ⚡ Carga asíncrona simulada mediante `Promise` y `setTimeout`.
+* 📱 Diseño responsive.
+* 🎨 Identidad visual basada en el manual de marca.
+
+---
+
+## 🛠️ Tecnologías
+
+| Tecnología | Uso                          |
+| ---------- | ---------------------------- |
+| HTML5      | Estructura y contenido       |
+| CSS3       | Diseño, estilos y responsive |
+| JavaScript | Lógica e interactividad      |
+| Git        | Control de versiones         |
+| GitHub     | Repositorio y colaboración   |
+| Vercel     | Despliegue del proyecto      |
+
+---
+
+## 📁 Estructura del proyecto
+
+```text
+MuebleriaJota/
+│
+├── index.html
+├── productos.html
+├── producto.html
+├── contacto.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── productos.js
+│   └── app.js
+│
+└── img/
 ```
 
+---
 
-## Scripts disponibles
+## 🎨 Identidad visual
 
-Puedes usar los siguientes comandos:
+El diseño del sitio se basa en la identidad visual definida para **Hermanos Jota**.
+
+### Paleta de colores
+
+| Color            | Código    |
+| ---------------- | --------- |
+| Siena Tostado    | `#A0522D` |
+| Verde Salvia     | `#87A96B` |
+| Alabastro Cálido | `#F5E6D3` |
+| Vara de Oro      | `#D4A437` |
+| Rosa Polvoriento | `#C47A6D` |
+
+### Tipografías
+
+* **Inter**
+* **Playfair Display**
+
+---
+
+## 🖼️ Logo
+
+El logotipo de Hermanos Jota debe respetar las especificaciones establecidas en el manual de marca.
+
+* **Ancho mínimo para uso digital:** `120px`
+* **Ancho mínimo para impresión:** `25mm`
+
+---
+
+## 👥 Integrantes
+
+Proyecto desarrollado por:
+
+* **Axel Ceballes**
+* **Tomás Fioravanti**
+* **Francisco Ramírez**
+* **Liam Rivera**
+
+---
+
+## 🚀 Ejecución local
+
+Para ejecutar el proyecto localmente:
+
+1. Clonar el repositorio:
 
 ```bash
-npm start
-npm run dev
-npm test
+git clone https://github.com/AxelCeballes/MuebleriaJota.git
 ```
 
-## Contribución
+2. Ingresar al directorio:
 
-Si quieres colaborar en este proyecto:
+```bash
+cd MuebleriaJota
+```
 
-1. Haz un fork del repositorio.
-2. Crea una rama para tu cambio.
-3. Realiza tus modificaciones.
-4. Envía un pull request con una descripción clara.
+3. Abrir `index.html` en el navegador.
 
-## Licencia
+También puede utilizarse una extensión como **Live Server** en Visual Studio Code para ejecutar el proyecto durante el desarrollo.
 
-Este proyecto se distribuye bajo la licencia MIT. Puedes revisar el archivo LICENSE si existe.
+---
 
-## Autor
+## 📚 Proyecto académico
 
-Tu nombre o el nombre del equipo responsable del proyecto.
+Este proyecto fue desarrollado con fines académicos para poner en práctica conceptos de:
+
+* Desarrollo frontend.
+* HTML semántico.
+* CSS y diseño responsive.
+* JavaScript y manipulación del DOM.
+* Gestión de eventos.
+* `localStorage`.
+* Programación asíncrona.
+* Validación de formularios.
+* Control de versiones con Git y GitHub.
+
+---
+
+## 📌 Estado del proyecto
+
+**Proyecto académico — Finalizado / En desarrollo**
+
+---
+
+### 🔗 Enlaces
+
+* **Repositorio:** https://github.com/AxelCeballes/MuebleriaJota
+* **Demo:** https://muebleria-jota-tawny.vercel.app/
